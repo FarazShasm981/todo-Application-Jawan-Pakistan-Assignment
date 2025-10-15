@@ -110,6 +110,7 @@ body {
     border: 2px solid red;
 
 }
+
 #task-list li {
     display: flex;
     align-items: center;
@@ -118,18 +119,21 @@ body {
     margin: 5px 0;
 
 }
+
 .todo-list {
- 
+
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 20px;
 }
-.btn-holder{
+
+.btn-holder {
     display: flex;
     gap: 10px;
 }
+
 .delbutton {
     padding: 10px 20px;
     font-size: 14px;
@@ -138,14 +142,16 @@ body {
     color: white;
     cursor: pointer;
 }
-.editbutton{
-     padding: 10px 25px;
+
+.editbutton {
+    padding: 10px 25px;
     font-size: 14px;
     border-radius: 12px;
     background-color: #191382;
     color: white;
     cursor: pointer;
 }
-.fa-solid{
+
+.fa-solid {
     margin-left: 5px;
 }
