@@ -12,7 +12,7 @@ body {
     align-items: center;
     font-family: "Jost", sans-serif;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: url("./bg.png") no-repeat center center/cover;
     /* background-position: center;
     background-repeat:no-repeat;
@@ -154,4 +154,99 @@ body {
 
 .fa-solid {
     margin-left: 5px;
+}
+
+@media (max-width:657px) {
+    .container {
+
+        padding: 0 10px;
+    }
+
+    .input-area input {
+        flex: 1;
+        padding: 10px 12px;
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        border-radius: 22px;
+        background: rgba(35, 110, 239, 0.3);
+        color: #000000;
+    }
+
+    .input-area button {
+        gap: 5px;
+        padding: 10px;
+        font-size: .8rem;
+    }
+
+    #task-list li {
+        max-width: 480px;
+        margin: 5px 0;
+
+    }
+
+    .editbutton {
+        padding: .5rem .8rem;
+        font-size: 10px;
+
+    }
+
+}
+
+@media (max-width:460px) {
+    /* .container {
+
+        padding: 0 10px;
+    } */
+
+    .input-area input {
+
+        padding: 12px;
+        font-size: .7rem;
+
+    }
+
+    .input-area button {
+        gap: 5px;
+        padding: 5px 10px;
+        font-size: .8rem;
+        border-radius: 10px;
+    }
+
+    #task-list li {
+        max-width: 400px;
+        margin: 5px 0;
+
+    }
+
+    .editbutton {
+        padding: .5rem .8rem;
+        font-size: 14px;
+
+    }
+
+    .delbutton {
+        padding: 8px 6px;
+        font-size: 14px;
+
+    }
+}
+
+@media (max-width:344px) {
+
+    #task-list li {
+        max-width: 300px;
+
+    }
+
+    .input-area {
+
+        min-width: 300px;
+    }
+
+    .input-area button {
+        gap: 2px;
+        padding: 5px 0px;
+
+    }
 }
